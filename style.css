@@ -207,13 +207,13 @@ img[alt="humberger-menu"] {
 
     #nav-links {
         display: none;
-        width: 31%;
-        padding-right: 35px;
-        padding-bottom: 50px;
-        padding-top: 18px;
+        width: 49%;
+        display: none;
         position: absolute;
-        top: 68px;
-        right: 11px;
+        top: 67px;
+        padding: 159px;
+        right: 10px;
+        font-size: 29px;
         background-color: white;
     }
 
@@ -249,14 +249,14 @@ img[alt="humberger-menu"] {
     }
 
     #nav-links {
-        width: 45%;
-        display: none;
-        position: absolute;
-        top: 67px;
-        padding: 112px;
-        right: 10px;
-        font-size: 25px;
-        background-color: white;
+        width: 64%;
+    display: none;
+    position: absolute;
+    top: 67px;
+    padding: 164px;
+    right: 10px;
+    font-size: 29px;
+    background-color: white;
     }
 
     ul {
@@ -290,14 +290,14 @@ img[alt="humberger-menu"] {
     }
 
     #nav-links {
-        width: 54%;
+        width: 64%;
         display: none;
         position: absolute;
         top: 67px;
-        padding: 52px;
+        padding: 112px;
         right: 10px;
+        font-size: 25px;
         background-color: white;
-        font-size: 23px;
     }
 
     ul {
