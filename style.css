@@ -41,7 +41,7 @@ ul a {
     display: none;
 }
 
-button[name="nav-login"]{
+button[name="nav-login"] {
     padding: 12px;
     background-color: #1b903a;
     color: white;
@@ -52,7 +52,7 @@ button[name="nav-login"]{
     font-size: 16px;
 }
 
-button[name="nav-start"]{
+button[name="nav-start"] {
     padding: 12px;
     background-color: #1b903a;
     color: white;
@@ -67,7 +67,7 @@ button[name="nav-start"]{
     display: none;
 }
 
-.menu-btns > img:nth-of-type(1){
+.menu-btns>img:nth-of-type(1) {
     padding-right: 10px;
 }
 
@@ -103,7 +103,7 @@ img[alt="menu-burger"] {
     display: none;
 }
 
-.btns{
+.btns {
     display: flex;
 }
 
@@ -174,7 +174,7 @@ img[alt="menu-burger"] {
         display: none;
     }
 
-    .btns{
+    .btns {
         display: none;
     }
 
@@ -200,9 +200,10 @@ img[alt="menu-burger"] {
         color: white;
     }
 
-    .btns{
+    .btns {
         display: none;
     }
+
     .display {
         display: none;
         position: absolute;
@@ -267,7 +268,8 @@ img[alt="menu-burger"] {
     ul a {
         color: white;
     }
-    .btns{
+
+    .btns {
         display: none;
     }
 
@@ -343,7 +345,8 @@ img[alt="menu-burger"] {
     ul a {
         color: white;
     }
-    .btns{
+
+    .btns {
         display: none;
     }
 
@@ -427,7 +430,7 @@ img[alt="menu-burger"] {
     width: 23%;
 }
 
-img[alt="background-img"]{
+img[alt="background-img"] {
     width: 100%;
 }
 
@@ -658,29 +661,13 @@ img[alt="background-img"]{
 
 /* sponsors media query */
 
-@media screen and (max-width: 1200px) and (min-width:992px) {
+@media screen and (max-width: 1200px) and (min-width:992px) {}
 
-    
-}
+@media screen and (max-width: 992px) and (min-width:786px) {}
 
-@media screen and (max-width: 992px) and (min-width:786px) {
-   
+@media screen and (max-width: 786px) and (min-width:600px) {}
 
-   
-
-
-}
-
-@media screen and (max-width: 786px) and (min-width:600px) {
-   
-
-}
-
-@media screen and (max-width: 600px) {
-   
-
-  
-}
+@media screen and (max-width: 600px) {}
 
 #community {
     /* width: 50%; */
@@ -813,9 +800,7 @@ img[alt="background-img"]{
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
     #description-text {
-        padding-left: 25px;
         width: 100%;
-        font-size: 30px;
         text-align: center;
     }
 
@@ -834,16 +819,12 @@ img[alt="background-img"]{
         width: 60%;
     }
 
-    #description-text p {
-        font-size: 34px;
-    }
+
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     #description-text {
-        padding-left: 25px;
         width: 100%;
-        font-size: 30px;
         text-align: center;
     }
 
@@ -862,14 +843,11 @@ img[alt="background-img"]{
         width: 60%;
     }
 
-    #description-text p {
-        font-size: 34px;
-    }
+
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
     #description-text {
-        padding-left: 25px;
         width: 100%;
         text-align: center;
     }
@@ -915,6 +893,7 @@ img[alt="background-img"]{
 #description-text p {
     font-weight: 400;
     color: #919191;
+    font-size: 20px;
 }
 
 #desc-title-span {
@@ -1200,11 +1179,8 @@ img[alt="side-logo1"] {
 
 
 .marketing {
-    display: grid;
-    grid-template-columns: 1fr;
     text-align: center;
-    padding-top: 75px;
-    padding-bottom: 40px;
+    padding: 32px;
 }
 
 .marketing>span {
@@ -1255,15 +1231,14 @@ img[alt="side-logo1"] {
     margin-top: 20px;
 }
 
-#smaller-span {
-    font-size: 21px;
-}
+
 
 /* marketing cards div media query */
 @media screen and (min-width: 1200px) {
     #marketing-cards-div {
         width: 90%;
     }
+
 
     .marketing>h2 {
         width: 50%;
@@ -1272,6 +1247,10 @@ img[alt="side-logo1"] {
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
     .marketing-cards-div {
+        width: 100%;
+    }
+
+    #smaller-span {
         width: 100%;
     }
 
@@ -1290,6 +1269,10 @@ img[alt="side-logo1"] {
 
     }
 
+    #smaller-span {
+        width: 100%;
+    }
+
     .marketing>h2 {
         width: 92%;
     }
@@ -1305,10 +1288,7 @@ img[alt="side-logo1"] {
         padding-right: 70px;
     }
 
-    #smaller-span {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+
 
     .demo-btn {
         font-size: 25px;
@@ -1321,6 +1301,10 @@ img[alt="side-logo1"] {
     .marketing-cards-div {
         width: 100%;
 
+    }
+
+    #smaller-span {
+        width: 100%;
     }
 
     .marketing>h2 {
@@ -1392,7 +1376,7 @@ img[alt="tesla"] {
     border-radius: 25px;
 }
 
-.sponsors{
+.sponsors {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -1542,7 +1526,7 @@ img[alt="credit"] {
     padding-right: 5px;
 }
 
-footer{
+footer {
     background-color: #000000;
     color: white;
     display: flex;
@@ -1554,7 +1538,7 @@ footer{
 }
 
 
-.footer-info{
+.footer-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -1562,45 +1546,50 @@ footer{
     row-gap: 20px;
     font-size: 18px;
 }
-footer h3{
+
+footer h3 {
     font-weight: 600;
 }
-.display{
+
+.display {
     display: block;
 }
 
-footer p{
+footer p {
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
 /* footer media query */
 
-@media  screen and (max-width: 1200px) and (min-width:992px) {
-    .footer-info{
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    .footer-info {
         column-gap: 52px;
         row-gap: 20px;
         font-size: 23px;
     }
 }
-@media  screen and (max-width: 992px) and (min-width:786px) {
-    .footer-info{
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    .footer-info {
         column-gap: 52px;
         row-gap: 20px;
         font-size: 23px;
     }
 }
-@media  screen and (max-width: 786px) and (min-width:600px) {
-    .footer-info{
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    .footer-info {
         column-gap: 52px;
         row-gap: 20px;
         font-size: 23px;
     }
 }
-@media  screen and (max-width: 600px){
-.footer-info{
-    column-gap: 52px;
-    row-gap: 20px;
-    font-size: 23px;
+
+@media screen and (max-width: 600px) {
+    .footer-info {
+        column-gap: 52px;
+        row-gap: 20px;
+        font-size: 23px;
     }
 }
