@@ -408,15 +408,14 @@ img[alt="menu-burger"] {
 
 
 #background-content {
-    column-count: 2;
     background-color: #E8F5E9;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 100%;
     padding-top: 45px;
     padding-bottom: 40px;
     row-gap: 20px;
+    column-gap: 10px;
 
 }
 
@@ -464,11 +463,9 @@ img[alt="background-img"] {
 }
 
 #background-text>p {
-    /* font-weight: 400; */
-    font-size: 20px;
+    font-weight: 400;
     color: #919191;
-    padding-left: 26px;
-    padding-right: 26px;
+    font-size: 22px;
 }
 
 /* #background-text>span{
@@ -488,10 +485,7 @@ img[alt="background-img"] {
 
 
 @media screen and (min-width: 1200px) {
-    #background-text>p {
-        font-size: 17px;
-    }
-
+  
     #background-text>div>button {
         font-size: 16px;
     }
@@ -515,9 +509,7 @@ img[alt="background-img"] {
         justify-content: center;
     }
 
-    #background-text>p {
-        font-size: 17px;
-    }
+
 
     #background-text>span {
         font-size: 25px;
@@ -560,10 +552,6 @@ img[alt="background-img"] {
     #background-text {
         width: 100%;
     }
-
-    /* #background-text>p {
-            font-size: 0px;
-    } */
 
     #background-img {
         width: 77%;
@@ -1181,6 +1169,8 @@ img[alt="side-logo1"] {
 .marketing {
     text-align: center;
     padding: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .marketing>span {
@@ -1284,8 +1274,7 @@ img[alt="side-logo1"] {
     .marketing span:nth-of-type(1) {
         width: 100%;
         font-size: 16px;
-        padding-left: 70px;
-        padding-right: 70px;
+    
     }
 
 
@@ -1355,7 +1344,12 @@ img[alt="side-logo1"] {
 }
 
 #tesla-img {
+   width: 45%;
+}
+#tesla-text {
+    width: 45%;
     margin-top: 20px;
+
 }
 
 
@@ -1372,7 +1366,7 @@ img[alt="side-logo1"] {
 }
 
 img[alt="tesla"] {
-    width: 500px;
+    width: 100%;
     border-radius: 25px;
 }
 
@@ -1411,16 +1405,6 @@ img[alt="tesla"] {
 
 /* tesla media query */
 
-@media screen and (min-width: 1200px) {
-    #tesla-text {
-        width: 50%;
-    }
-
-    .small-sponsors a {
-        padding-top: 15px;
-    }
-}
-
 @media screen and (max-width: 1200px) and (min-width:992px) {
     .tesla-div {
         width: 100%;
@@ -1430,11 +1414,13 @@ img[alt="tesla"] {
     #tesla-text {
         width: 50%;
         /* font-size: 18px; */
-
+    }
+    #tesla-img{
+        width: 80%;
     }
 
     img[alt="tesla"] {
-        width: 400px;
+        width: 100%;
     }
 
 
@@ -1444,20 +1430,18 @@ img[alt="tesla"] {
     .tesla-div {
         width: 100%;
     }
+    #tesla-img{
+        width: 80%;
+    }
 
-    /* img[alt="tesla"] {
-        width: 380px;
-    } */
 
     #tesla-text {
         width: 74%;
         text-align: center;
-        /* font-size: 17px; */
     }
 
     #tesla-text>p {
         width: 100%;
-        font-size: 14px;
     }
 
     .small-sponsors a {
@@ -1477,6 +1461,10 @@ img[alt="tesla"] {
         padding-left: 33px;
     }
 
+    #tesla-img{
+        width: 80%;
+    }
+
     #tesla-text {
         width: 100%;
         text-align: center;
@@ -1484,9 +1472,6 @@ img[alt="tesla"] {
 
     }
 
-    img[alt="tesla"] {
-        width: 360px;
-    }
 
 }
 
@@ -1498,14 +1483,13 @@ img[alt="tesla"] {
 
     }
 
+    #tesla-img{
+        width: 80%;
+    }
     #tesla-text {
         width: 100%;
         text-align: center;
         /* font-size: 14px; */
-    }
-
-    img[alt="tesla"] {
-        width: 340px;
     }
 
     .small-sponsors a {
