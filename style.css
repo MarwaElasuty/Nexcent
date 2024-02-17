@@ -22,7 +22,7 @@ ul {
     list-style-type: none;
     font-weight: 600;
     align-items: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
@@ -81,15 +81,15 @@ button[name="login"] {
     background-color: inherit;
     padding: 15px;
     border-style: none;
-    font-size: 23px;
+    font-size: 26px;
     color: white;
 }
 
 button[name="start"] {
     padding: 11px;
-    width: 128px;
+    width: 185px;
     border-style: none;
-    font-size: 16px;
+    font-size: 26px;
     background-color: #1b903a;
     color: white;
     border-radius: 9px;
@@ -671,6 +671,17 @@ img[alt="background-img"] {
     row-gap: 15px;
 }
 
+.card {
+    width: 27%;
+    padding: 40px;
+    font-size: 22px;
+    border: 1px solid black;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px 14px rgb(252, 252, 255);
+}
+
+
 /* Community card div media query */
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
@@ -691,7 +702,7 @@ img[alt="background-img"] {
     }
 
     .card {
-        width: 61%;
+        width: 88%;
     }
 
 }
@@ -702,7 +713,7 @@ img[alt="background-img"] {
     }
 
     .card {
-        width: 85%;
+        width: 88%;
     }
 }
 
@@ -712,25 +723,10 @@ img[alt="background-img"] {
     }
 
     .card {
-        width: 85%;
+        width: 88%;
     }
 }
 
-.card {
-    width: 30%;
-    padding: 40px;
-    font-size: 22px;
-    border: 1px solid black;
-    border-style: none;
-    border-radius: 20px;
-    box-shadow: 5px 10px 10px 14px rgb(252, 252, 255);
-}
-
-
-.card-title-span {
-    display: inline-block;
-    width: 52%;
-}
 
 .card-text-span {
     color: #919191;
@@ -1434,11 +1430,12 @@ footer {
 .footer-info {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     column-gap: 52px;
-    row-gap: 20px;
+    row-gap: 30px;
     font-size: 21px;
-    width: 60%;
+    margin-top: 15px;
+    width: 95%;
 }
 
 footer h3 {
@@ -1458,12 +1455,9 @@ footer p:nth-of-type(1) {
     font-size: 21px;
 }
 
-/* footer media query */
-
-@media screen and (max-width: 1200px) and (min-width:992px) {}
-
-@media screen and (max-width: 992px) and (min-width:786px) {}
-
-@media screen and (max-width: 786px) and (min-width:600px) {}
-
-@media screen and (max-width: 600px) {}
+.footer-container{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
