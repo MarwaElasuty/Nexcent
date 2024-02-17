@@ -663,20 +663,15 @@ img[alt="background-img"] {
 }
 
 #community-cards-div {
-    column-count: 3;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 60px;
     text-align: center;
+    row-gap: 15px;
 }
 
 /* Community card div media query */
-@media screen and (min-width: 1200px) {
-    .card {
-        width: 22%;
-    }
-}
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
     #community-cards-div {
@@ -684,7 +679,7 @@ img[alt="background-img"] {
     }
 
     .card {
-        width: 85%;
+        width: 42%;
     }
 
 
@@ -696,7 +691,7 @@ img[alt="background-img"] {
     }
 
     .card {
-        width: 85%;
+        width: 61%;
     }
 
 }
@@ -722,9 +717,9 @@ img[alt="background-img"] {
 }
 
 .card {
+    width: 30%;
     padding: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
+    font-size: 22px;
     border: 1px solid black;
     border-style: none;
     border-radius: 20px;
@@ -860,13 +855,14 @@ img[alt="background-img"] {
 #description-text p {
     font-weight: 400;
     color: #919191;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #desc-title-span {
     display: inline-block;
-    width: 50%;
+    width: 68%;
     margin-bottom: 15px;
+    font-size: 23px;
 }
 
 img[alt="desc-user"] {
@@ -887,15 +883,14 @@ img[alt="desc-user"] {
 }
 
 .learn-more-div button {
-    height: 50px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding: 16px;
     border-radius: 15px;
+    width: 191px;
     font-weight: 500;
     color: white;
     background-color: #009379;
     border-style: none;
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 20px;
 }
 
@@ -930,7 +925,7 @@ img[alt="side-logo1"] {
     justify-content: space-evenly;
     padding-bottom: 30px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .statistics-container {
@@ -944,7 +939,7 @@ img[alt="side-logo1"] {
 }
 
 #statistics-left {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 #statistics-left>h1 {
@@ -1056,7 +1051,7 @@ img[alt="side-logo1"] {
 }
 
 .marketing p{
-    width: 62%;
+    width: 75%;
     margin: auto;
     font-size: 20px;
 }
@@ -1096,16 +1091,14 @@ img[alt="side-logo1"] {
 
 
 .demo-btn {
-    height: 50px;
-    margin: auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 10px;
+    padding: 16px;
+    border-radius: 15px;
+    width: 191px;
     font-weight: 500;
     color: white;
     background-color: #009379;
     border-style: none;
-    font-size: 15px;
+    font-size: 24px;
     margin-top: 20px;
 }
 
@@ -1129,11 +1122,11 @@ img[alt="side-logo1"] {
     }
 
     #smaller-span {
-        width: 100%;
+        width: 95%;
     }
 
     .marketing>h2 {
-        width: 65%;
+        width: 70%;
     }
 
     .marketing-cards-div>img {
@@ -1148,11 +1141,11 @@ img[alt="side-logo1"] {
     }
 
     #smaller-span {
-        width: 100%;
+        width: 95%;
     }
 
     .marketing>h2 {
-        width: 92%;
+        width: 70%;
     }
 
     .marketing-cards-div>img {
@@ -1167,10 +1160,6 @@ img[alt="side-logo1"] {
 
 
 
-    .demo-btn {
-        font-size: 25px;
-        width: 35%;
-    }
 
 }
 
@@ -1181,11 +1170,11 @@ img[alt="side-logo1"] {
     }
 
     #smaller-span {
-        width: 100%;
+        width: 95%;
     }
 
     .marketing>h2 {
-        width: 95%;
+        width: 70%;
     }
 
     .marketing>span {
@@ -1292,7 +1281,7 @@ img[alt="tesla"] {
 .small-sponsors a {
     color: #009379;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 23px;
     padding-top: 20px;
 }
 
@@ -1448,8 +1437,8 @@ footer {
     justify-content: space-evenly;
     column-gap: 52px;
     row-gap: 20px;
-    font-size: 19px;
-    width: 50%;
+    font-size: 21px;
+    width: 60%;
 }
 
 footer h3 {
@@ -1466,7 +1455,7 @@ footer p {
 }
 
 footer p:nth-of-type(1) {
-    font-size: 18px;
+    font-size: 21px;
 }
 
 /* footer media query */
