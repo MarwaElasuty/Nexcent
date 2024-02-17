@@ -477,7 +477,7 @@ img[alt="background-img"] {
 
 
 @media screen and (min-width: 1200px) {
-  
+
     #background-text>div>button {
         font-size: 16px;
     }
@@ -684,8 +684,7 @@ img[alt="background-img"] {
     }
 
     .card {
-        width: 74%;
-        font-size: 23px;
+        width: 85%;
     }
 
 
@@ -697,13 +696,9 @@ img[alt="background-img"] {
     }
 
     .card {
-        width: 75%;
-        margin-bottom: 20px;
+        width: 85%;
     }
 
-    .card h2 {
-        font-size: 40px;
-    }
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
@@ -712,7 +707,7 @@ img[alt="background-img"] {
     }
 
     .card {
-        width: 70%;
+        width: 85%;
     }
 }
 
@@ -874,7 +869,7 @@ img[alt="background-img"] {
     margin-bottom: 15px;
 }
 
-img[alt="desc-user"]{
+img[alt="desc-user"] {
     width: 100%;
 }
 
@@ -938,7 +933,7 @@ img[alt="side-logo1"] {
     font-size: 18px;
 }
 
-.statistics-container{
+.statistics-container {
     flex-wrap: wrap;
     row-gap: 58px;
     width: 90%;
@@ -948,15 +943,15 @@ img[alt="side-logo1"] {
     align-items: center;
 }
 
-#statistics-left{
+#statistics-left {
     font-size: 20px;
 }
 
-#statistics-left > h1{
+#statistics-left>h1 {
     font-size: 50px;
 }
 
-#statistics-left > p:nth-of-type(1) {
+#statistics-left>p:nth-of-type(1) {
     color: #1b903a;
     font-weight: 500;
 }
@@ -967,7 +962,7 @@ img[alt="side-logo1"] {
 
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
-    
+
     #statistics-right {
         width: 100%;
     }
@@ -978,7 +973,7 @@ img[alt="side-logo1"] {
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
-   
+
     .text-div p {
         width: 50%;
     }
@@ -994,7 +989,7 @@ img[alt="side-logo1"] {
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
-    
+
 
     #first-div>h1 {
         padding: 25px;
@@ -1017,7 +1012,7 @@ img[alt="side-logo1"] {
 }
 
 @media screen and (max-width: 600px) {
-   
+
 
     #first-div>h1 {
         padding: 25px;
@@ -1058,6 +1053,12 @@ img[alt="side-logo1"] {
     padding: 32px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.marketing p{
+    width: 62%;
+    margin: auto;
+    font-size: 20px;
 }
 
 .marketing>span {
@@ -1161,7 +1162,7 @@ img[alt="side-logo1"] {
     .marketing span:nth-of-type(1) {
         width: 100%;
         font-size: 16px;
-    
+
     }
 
 
@@ -1230,15 +1231,16 @@ img[alt="side-logo1"] {
 }
 
 #tesla-img {
-   width: 40%;
+    width: 40%;
 }
+
 #tesla-text {
     width: 45%;
     margin-top: 20px;
 
 }
 
-img[alt="mini-sponsor"]{
+img[alt="mini-sponsor"] {
     width: 100%;
 }
 
@@ -1253,6 +1255,7 @@ img[alt="mini-sponsor"]{
 
 #tesla-text>p:nth-last-of-type(1) {
     color: #919191;
+    margin-bottom: 15px;
 }
 
 img[alt="tesla"] {
@@ -1290,7 +1293,6 @@ img[alt="tesla"] {
     color: #009379;
     font-weight: 500;
     font-size: 21px;
-    padding-left: 13px;
     padding-top: 20px;
 }
 
@@ -1301,6 +1303,7 @@ img[alt="tesla"] {
         width: 100%;
         text-align: center;
     }
+
     #tesla-text>p {
         width: 83%;
         margin: auto;
@@ -1309,12 +1312,18 @@ img[alt="tesla"] {
     #tesla-text {
         width: 100%;
     }
-    #tesla-img{
+
+    #tesla-img {
         width: 80%;
     }
 
     img[alt="tesla"] {
         width: 100%;
+    }
+    
+    .small-sponsors {
+        width: 74%;
+        margin: auto;
     }
 
 
@@ -1324,10 +1333,15 @@ img[alt="tesla"] {
     .tesla-div {
         width: 100%;
     }
-    #tesla-img{
+
+    #tesla-img {
         width: 80%;
     }
 
+    .small-sponsors {
+        width: 74%;
+        margin: auto;
+    }
 
     #tesla-text {
         width: 100%;
@@ -1351,7 +1365,7 @@ img[alt="tesla"] {
         padding-left: 33px;
     }
 
-    #tesla-img{
+    #tesla-img {
         width: 80%;
     }
 
@@ -1359,11 +1373,16 @@ img[alt="tesla"] {
         width: 100%;
         text-align: center;
     }
+
     #tesla-text>p {
         width: 83%;
         margin: auto;
     }
 
+    .small-sponsors {
+        width: 74%;
+        margin: auto;
+    }
 
 }
 
@@ -1375,13 +1394,15 @@ img[alt="tesla"] {
 
     }
 
-    #tesla-img{
+    #tesla-img {
         width: 80%;
     }
+
     #tesla-text {
         width: 100%;
         text-align: center;
     }
+
     #tesla-text>p {
         width: 83%;
         margin: auto;
@@ -1391,6 +1412,10 @@ img[alt="tesla"] {
         padding-top: 25px;
     }
 
+    .small-sponsors {
+        width: 74%;
+        margin: auto;
+    }
 
 }
 
@@ -1418,7 +1443,7 @@ footer {
 
 
 .footer-info {
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     column-gap: 52px;
@@ -1440,23 +1465,16 @@ footer p {
     margin-bottom: 15px;
 }
 
-footer p:nth-of-type(1){
+footer p:nth-of-type(1) {
     font-size: 18px;
 }
+
 /* footer media query */
 
-@media screen and (max-width: 1200px) and (min-width:992px) {
-    
-}
+@media screen and (max-width: 1200px) and (min-width:992px) {}
 
-@media screen and (max-width: 992px) and (min-width:786px) {
-   
-}
+@media screen and (max-width: 992px) and (min-width:786px) {}
 
-@media screen and (max-width: 786px) and (min-width:600px) {
-   
-}
+@media screen and (max-width: 786px) and (min-width:600px) {}
 
-@media screen and (max-width: 600px) {
-   
-}
+@media screen and (max-width: 600px) {}
