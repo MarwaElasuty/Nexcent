@@ -115,15 +115,15 @@ img[alt="menu-burger"] {
         display: none;
         position: absolute;
         top: 80px;
-        right: 20px;
+        right: -4px;
         border: 5px solid #518581;
-        padding: 58px;
+        padding: 28px;
         background-color: #000000;
         color: black;
         font-size: 25px;
         z-index: 2;
         text-align: center;
-        border-radius: 76px;
+        border-radius: 76px
     }
 
     ul a {
@@ -138,9 +138,9 @@ img[alt="menu-burger"] {
         display: none;
         position: absolute;
         top: 80px;
-        right: 20px;
+        right: -4px;
         border: 5px solid #518581;
-        padding: 58px;
+        padding: 28px;
         background-color: black;
         color: white;
         font-size: 25px;
@@ -204,9 +204,9 @@ img[alt="menu-burger"] {
         display: none;
         position: absolute;
         top: 80px;
-        right: 20px;
+        right: -4px;
         border: 5px solid #518581;
-        padding: 58px;
+        padding: 28px;
         background-color: black;
         color: white;
         font-size: 25px;
@@ -214,20 +214,19 @@ img[alt="menu-burger"] {
         text-align: center;
         border-radius: 76px;
     }
-
     .ul-list {
         display: none;
         position: absolute;
         top: 80px;
-        right: 20px;
+        right: -4px;
         border: 5px solid #518581;
-        padding: 58px;
+        padding: 28px;
         background-color: #000000;
         color: black;
         font-size: 25px;
         z-index: 2;
         text-align: center;
-        border-radius: 76px;
+        border-radius: 76px
     }
 
     img[alt="menu-burger"] {
@@ -277,9 +276,9 @@ img[alt="menu-burger"] {
         display: none;
         position: absolute;
         top: 80px;
-        right: 20px;
+        right: -4px;
         border: 5px solid #518581;
-        padding: 58px;
+        padding: 28px;
         background-color: black;
         color: white;
         font-size: 25px;
@@ -292,15 +291,15 @@ img[alt="menu-burger"] {
         display: none;
         position: absolute;
         top: 80px;
-        right: 20px;
+        right: -4px;
         border: 5px solid #518581;
-        padding: 58px;
+        padding: 28px;
         background-color: #000000;
         color: black;
         font-size: 25px;
         z-index: 2;
         text-align: center;
-        border-radius: 76px;
+        border-radius: 76px
     }
 
     img[alt="menu-burger"] {
@@ -350,9 +349,9 @@ img[alt="menu-burger"] {
         display: none;
         position: absolute;
         top: 80px;
-        right: 20px;
+        right: -4px;
         border: 5px solid #518581;
-        padding: 58px;
+        padding: 28px;
         background-color: black;
         color: white;
         font-size: 25px;
@@ -360,20 +359,19 @@ img[alt="menu-burger"] {
         text-align: center;
         border-radius: 76px;
     }
-
     .ul-list {
         display: none;
         position: absolute;
         top: 80px;
-        right: 20px;
+        right: -4px;
         border: 5px solid #518581;
-        padding: 58px;
+        padding: 28px;
         background-color: #000000;
         color: black;
         font-size: 25px;
         z-index: 2;
         text-align: center;
-        border-radius: 76px;
+        border-radius: 76px
     }
 
     img[alt="menu-burger"] {
@@ -701,7 +699,8 @@ img[alt="background-img"] {
     }
 
     .card {
-        width: 88%;
+        width: 95%;
+        
     }
 
 }
@@ -710,9 +709,9 @@ img[alt="background-img"] {
     #community-cards-div {
         width: 90%;
     }
-
     .card {
-        width: 88%;
+        width: 95%;
+        
     }
 }
 
@@ -722,7 +721,8 @@ img[alt="background-img"] {
     }
 
     .card {
-        width: 88%;
+        width: 95%;
+        
     }
 }
 
@@ -829,6 +829,7 @@ img[alt="background-img"] {
 
     #description-img {
         margin: auto;
+        width: 100%;
     }
 
     #description-text h1 {
@@ -1080,7 +1081,7 @@ img[alt="side-logo1"] {
 
 
 .marketing>h2 {
-    font-size: 45px;
+    font-size: 41px;
     width: 40%;
     text-align: center;
     margin: auto;
@@ -1209,7 +1210,7 @@ img[alt="side-logo1"] {
     }
 
     .marketing>h2 {
-        width: 90%;
+        width: 100%;
     }
 
     .marketing>span {
@@ -1274,6 +1275,7 @@ img[alt="tesla"] {
     margin-bottom: 60px;
     flex-wrap: wrap;
     row-gap: 15px;
+    column-gap: 10px;
 }
 
 .small-sponsors {
@@ -1475,7 +1477,7 @@ footer p:nth-of-type(1) {
 }
 
 .footer-container{
-    width: 88%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
