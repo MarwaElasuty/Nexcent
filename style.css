@@ -585,9 +585,8 @@ img[alt="background-img"] {
 }
 
 #clients {
-    width: 50%;
-    margin: auto;
     margin-top: 30px;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -598,22 +597,19 @@ img[alt="background-img"] {
 #clients p {
     font-weight: 400;
     color: #919191;
+    width: 50%;
+    margin: auto;
 }
 
 
 /* clients media query */
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
-    #clients {
-        width: 83%;
-        font-size: 30px;
-    }
+
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
-    #clients {
-        width: 83%;
-    }
+
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
@@ -908,13 +904,6 @@ img[alt="side-logo1"] {
     padding-right: 25px;
 }
 
-
-
-
-
-#statistics-right {
-    width: 50%;
-}
 
 .main-div {
     display: flex;
